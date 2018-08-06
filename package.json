@@ -1,0 +1,21 @@
+{
+  "name": "mochachai",
+  "version": "1.0.0",
+  "description": "mocha chai tests",
+  "main": "'",
+  "scripts": {
+    "test": "mocha **/*.test.js ",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "author": "Tanuj Bohra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "supertest": "^3.1.0"
+  }
+}
